@@ -1,7 +1,12 @@
-nomes = ["Lucas", "Vinicios", "Davi", "Arthur", "Toddynho", "Arthur F", "Maria", "Pietra", "miguel", "Apollo", "Bernardo", "Eric ", "kaua"]
+num1 = float(input("Digite um valor: ")) #valor com ponto
+num2 = float(input("Digite um valor: ")) #valor com ponto
 
-print(nomes[10])
-print(nomes[7])
-print(nomes[2])
-print(nomes[4])
-print(nomes[12])
+soma = num1 + num2
+subt = num1 - num2
+mult = num1 * num2
+div = num1 / num2
+
+print("soma: ", soma)
+print("subtração: ", subt)
+print("multiplicação: ", mult)
+print("divisão: ", div)
