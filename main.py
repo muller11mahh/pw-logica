@@ -1,3 +1,11 @@
-nome = input("Digite seu nome: ")
+nome = input("Qual é seu nome: ")
+idade = input("Qual sua idade: ")
+altura = input("Qual sua altura: ")
+escola = input("Em qual escola você estuda: ")
+cidade = input("Em qual cidade você mora: ")
 
-print(nome)
+print("seu nome é " + nome)
+print("sua idade é " + idade)
+input("sua altura é " + altura)
+input("sua escola é " + escola)
+input("sua cidade é " + cidade)
