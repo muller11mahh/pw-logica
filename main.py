@@ -1,5 +1,5 @@
-num1 = input("Digite um número para somar: ")
-num2 = input("Digite um outro número para somar: ")
+num1 = int(input("Digite um número para somar: "))
+num2 = int(input("Digite um outro número para somar: "))
 
 soma = num1 + num2
 
