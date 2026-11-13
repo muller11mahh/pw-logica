@@ -1,7 +1,5 @@
-nome = input("Seu nome: ")
-print("=" * 30)
-print("Olá, " + nome + "!")
-print("=" * 30)
-
-print(nome * 3)
-print(len(nome))
+print("Vamos converter temperatura?")
+print("=== CONVERSOR DE TEMPERATURA ===")
+celsius = float(input("temperatura em Celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"{celsius}°C = {fahrenheit:.1f}°F")
