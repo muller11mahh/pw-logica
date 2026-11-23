@@ -1,5 +1,7 @@
-contador = 1
+while True:
+    idade = int(input("Digite sua idade: "))
+    if idade > 0:
+        break
+    print("Idade inválida! tente novamente.")
 
-while contador <= 5:
-    print("Olá, mundo!")
-    contador = contador + 1
+print("Idade registrada!")
