@@ -1,6 +1,8 @@
-
-
-alunos = ["Pedro", "João", "Ana", "Davi", "Lucas"]
+alunos = ["Pedro", "João", "Ana", "Davi", "Lucas", "Maria"]
+print(alunos)
+alunos.remove("Pedro")
+alunos.pop(0)
+print(alunos)
 
 alunos.append("Erick")
 print(alunos)
