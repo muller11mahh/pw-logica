@@ -1,12 +1,14 @@
 
+produtos = ["Monster", "Celular", "Garrafa"]
+
+produtos.append("computador")
+produtos.append("mouse")
+print(produtos)
 
 
 
 
-filmes = ["Verity", "Jogos vorazes", "A odisseia", "Batman", "Matrix", "Coringa"]
+quantidade = len(produtos)
+print(f"Temos {quantidade} produtos cadastrados.")
+print(produtos)
 
-quantidade = len(filmes)
-print(f"Temos {quantidade} filmes cadastrados.")
-print(filmes)
-print(filmes[0])
-print(filmes[5])
