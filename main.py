@@ -1,14 +1,16 @@
+## lista -> [] - permite alterações
+## tupla -> () - não permite alterações
+## dicionário -> {}
 
-produtos = ["Monster", "Celular", "Garrafa"]
+alunos = {
+    "João": 8,
+    "Maria": 9,
+    "Pedro": 5,
+    "Ana": 6
+}
 
-produtos.append("computador")
-produtos.append("mouse")
-print(produtos)
-
-
-
-
-quantidade = len(produtos)
-print(f"Temos {quantidade} produtos cadastrados.")
-print(produtos)
-
+for nome, nota in alunos.items():
+    if nota >= 7:
+        print(f"{nome} está aprovado")
+    else:
+        print(f"{nome} está reprovado")
