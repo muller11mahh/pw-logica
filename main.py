@@ -1,16 +1,5 @@
-## lista -> [] - permite alterações
-## tupla -> () - não permite alterações
-## dicionário -> {}
+filmes = ["Pulp Fiction", "Era do Gelo", "Gente Grande", "Toy Story", "Harry Potter"]
 
-alunos = {
-    "João": 8,
-    "Maria": 9,
-    "Pedro": 5,
-    "Ana": 6
-}
-
-for nome, nota in alunos.items():
-    if nota >= 7:
-        print(f"{nome} está aprovado")
-    else:
-        print(f"{nome} está reprovado")
+print(filmes)
+print(filmes[0])
+print(filmes[4])
