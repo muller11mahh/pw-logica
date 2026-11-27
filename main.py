@@ -1,7 +1,6 @@
-compras = ["Arroz", "Feijão", "Leite"]
-print("Lista inicial:")
-print(compras)
-compras.append("Café")
-compras.append("Pão")
-print("Lista Atualizada:")
-print(compras)
+alunos = ["Pedro", "Maria", "Apollo", "Matheus", "Miguel"]
+contador = 0
+for aluno in alunos:
+    print(f"aluno {contador} : {aluno}")
+
+    contador += 1
